@@ -14,6 +14,7 @@ class SampleSparkJob {
     val mapped_rdd = rdd.map(term => term.reverse)
 
     // Performed on the executing nodes (check the output in the Spark UI)
+	// another statmt
     mapped_rdd.foreach(println)
 
     // Performed on the driver
